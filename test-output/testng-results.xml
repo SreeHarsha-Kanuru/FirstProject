@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-19T16:40:52 IST" name="CheckOutTest" finished-at="2020-04-19T16:41:54 IST" duration-ms="61978">
+    <groups>
+      <group name="LogIn">
+        <method signature="Navigation.checkout(java.lang.String, java.lang.String)[pri:0, instance:com.automation.website.Navigation@d706f19]" name="checkout" class="com.automation.website.Navigation"/>
+      </group> <!-- LogIn -->
+      <group name="smokeTest">
+        <method signature="Navigation.checkout(java.lang.String, java.lang.String)[pri:0, instance:com.automation.website.Navigation@d706f19]" name="checkout" class="com.automation.website.Navigation"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2020-04-19T16:40:52 IST" name="CheckOutTest" finished-at="2020-04-19T16:41:54 IST" duration-ms="61978">
+      <class name="com.automation.website.Navigation">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:com.automation.website.Navigation@d706f19]" started-at="2020-04-19T16:40:52 IST" name="browser" finished-at="2020-04-19T16:41:20 IST" duration-ms="27902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="checkout(java.lang.String, java.lang.String)[pri:0, instance:com.automation.website.Navigation@d706f19]" started-at="2020-04-19T16:41:20 IST" name="checkout" finished-at="2020-04-19T16:41:53 IST" duration-ms="33261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sakshi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K@jXHqwVY2pCz4x]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.website.Navigation@d706f19]" started-at="2020-04-19T16:41:54 IST" name="tearDown" finished-at="2020-04-19T16:41:54 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.website.Navigation -->
+    </test> <!-- CheckOutTest -->
+  </suite> <!-- CheckOutTest -->
+</testng-results>
